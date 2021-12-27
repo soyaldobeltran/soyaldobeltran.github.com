@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');   
+    
+    html{
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+    div.polaroid{
+        position: relative;
+        background-color: white;
+        padding: .6em;
+        margin: auto;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 11PX rgba(0, 0, 0, .5);
+        display: block;
+        transition: transform .5s;
+    }
+    .texto{
+        text-align: center;
+    }
+    .polaroid img{
+        /*opacity: .6;*/
+        filter: brightness(.3);
+    }
+    .polaroid img:hover{
+        /*opacity: 1;*/
+        filter: brightness(1);
+    }
+    .imgtext{
+        position: absolute;
+        top: 10px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+    div.polaroid:hover{
+        transform: scale(1.1);
+    }
+    img{
+        width: 300px;
+    }
+    @media screen and (max-width: 760px){
+        
+    }
+
+
+    @media screen and (min-width: 761px)

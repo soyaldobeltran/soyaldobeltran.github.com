@@ -1,0 +1,32 @@
+/* SVG as pseudo element's content */
+.telegram{
+    width: 50px;
+    position: fixed;
+    
+    right: 8%;
+   
+    bottom: 8%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.some-item:after {
+	content: url('https://api.iconify.design/ic/twotone-telegram.svg?color=%23444&width=100');
+   
+}
+
+/* SVG as pseudo element's background image */
+.another-item:after {
+	content: '';
+	width: 5em;
+	
+	display: inline-block;
+	background: url('https://api.iconify.design/ic/twotone-telegram.svg?color=%23444') no-repeat center center / contain;
+}
+
+/* SVG as background image */
+.third-item {
+	background: url('https://api.iconify.design/ic/twotone-telegram.svg?color=%23444') no-repeat center center / contain;
+}
